@@ -10,6 +10,7 @@ while(p>0):
    p-=1
    if(n==x):
       print("You win!")
+      l=input("press any key to exit")
       break
    if(int(p)>0):
       if(int(n)>int(x)):
@@ -18,4 +19,5 @@ while(p>0):
          print("Try something higher than that")
    if(p==0):
       print("BETTER LUCK NEXT TIME!")
+      print("The number is :"+str(x)) 
       f=input("press any key to exit")
